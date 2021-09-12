@@ -101,7 +101,7 @@ n
 f*
 ```
 
-After digging through the [PDF specifications](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf) (page 133), we can see that the PDF is drawing very tiny curves in yellow all over the page. If we change the color from yellow to black, we get `out-black.pdf`
+After digging through the [PDF specifications](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf) (page 133), we can see that the PDF is drawing very tiny curves in yellow all over the page. If we change the color from yellow to black, we get `mic_out_black.pdf`
 
 After some more googling, we find these little dots are Machine Identification Codes (mic), something we were tipped off to from the start of this challenge. Printers often add these little yellow dots to the pages it prints as essentially metadata. The mic contains the date and time the pages was printed, the serial number of printer, and parody bits on the edges
 
