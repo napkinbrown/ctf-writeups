@@ -105,7 +105,7 @@ After digging through the [PDF specifications](https://www.adobe.com/content/dam
 
 After some more googling, we find these little dots are Machine Identification Codes (mic), something we were tipped off to from the start of this challenge. Printers often add these little yellow dots to the pages it prints as essentially metadata. The mic contains the date and time the pages was printed, the serial number of printer, and parody bits on the edges
 
-Taking a look at the dots, the time fields stay the same, but the serial number changes every time. The serial number is read from top to bottom, and each number is read as two digets.
+Taking a look at the dots, the time fields stay the same, but the serial number changes every page. The serial number is read from top to bottom, and each number is read as two digets.
 
 The first code is:
 ```
