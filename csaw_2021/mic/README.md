@@ -37,10 +37,10 @@ Looking at some of the compressed data, they appear to be mostly fonts, so that'
 
 Using this, we can decompress the pdf into something more human readable:
 ```
-qpdf --qdf --object-streams=disable scan.pdf out.pdf
+qpdf --qdf --object-streams=disable scan.pdf mic_out.pdf
 ```
 
-`out.pdf` looks like this
+`mic_out.pdf` looks like this
 
 ```
 %PDF-1.3
